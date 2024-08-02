@@ -1,5 +1,7 @@
 ﻿using DevFreela.API.Models;
+using DevFreela.API.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace DevFreela.API.Controllers;
 
@@ -7,21 +9,38 @@ namespace DevFreela.API.Controllers;
     [Route("api/projects")]
 public class ProjectsControllers : ControllerBase
 {
-    [HttpGet]
-    public IActionResult Get(string search)
+    private readonly FreelanceTotalCostConfig _config;
+    private readonly IConfigService _configService;
+    
+    public ProjectsControllers(
+        IOptions<FreelanceTotalCostConfig> options,
+        IConfigService configService)
     {
-        return Ok();
+        _config = options.Value;
+        _configService = configService;
+    }
+    
+    [HttpGet]
+    public IActionResult Get(string search = "")
+    {
+        return Ok(_configService.GetValue());
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
+        throw new Exception(); 
         return Ok();
     }
 
-    [HttpPost("{id}")]
-    public IActionResult Post(CreateProjectInputModel model, int id)
+    [HttpPost]
+    public IActionResult Post(CreateProjectInputModel model,int id)
     {
+        if (model.TotalCoast < _config.Minimum || model.TotalCoast > _config.Maximum)
+        {
+            return BadRequest("Numero fora dos limites.");
+        }
+        
         return CreatedAtAction(nameof(GetById), new {id = 1}, model);
     }
 
