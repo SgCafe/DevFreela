@@ -1,4 +1,5 @@
 ﻿using DevFreela.API.Models;
+using DevFreela.API.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers;
@@ -7,16 +8,11 @@ namespace DevFreela.API.Controllers;
     [Route("api/users")]
 public class UsersControllers : ControllerBase
 {
-    [HttpPost]
-    public IActionResult Post(CreateUserInputModel model)
-    {
-        return Ok();
-    }
+    private readonly DevFreelaDbContext _context;
 
-    [HttpPost("{id}/skills")]
-    public IActionResult PostSkills(UserSkillsInputModel model)
+    public UsersControllers(DevFreelaDbContext context)
     {
-        return NoContent();
+        _context = context;
     }
     
     [HttpGet]
@@ -28,7 +24,26 @@ public class UsersControllers : ControllerBase
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
+        
+        
         return Ok();
+    }
+    
+    [HttpPost]
+    public IActionResult Post(CreateUserInputModel model)
+    {
+        var user = model.ToEntity();
+
+        _context.Users.Add(user);
+        _context.SaveChanges();
+        
+        return NoContent();
+    }
+
+    [HttpPost("{id}/skills")]
+    public IActionResult PostSkills(UserSkillsInputModel model)
+    {
+        return NoContent();
     }
 
     [HttpPut("{id}/profile-picture")]

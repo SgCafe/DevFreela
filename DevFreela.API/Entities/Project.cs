@@ -7,14 +7,13 @@ public class Project : BaseEntity
     //Deixa um construtor vazio para quando gerar as migrations, n dar problema com o EF
     protected Project(){ }
     
-    public Project(string title, string description, int idClient, int idFreelancer, User freelancer, decimal totalCost, ProjectStatusEnum status, List<ProjectComment> comments)
+    public Project(string title, string description, int idClient, int idFreelancer, decimal totalCost)
         :base()
     {
         Title = title;
         Description = description;
         IdClient = idClient;
         IdFreelancer = idFreelancer;
-        Freelancer = freelancer;
         TotalCost = totalCost;
         Status = ProjectStatusEnum.Created;
         Comments = new List<ProjectComment>();
