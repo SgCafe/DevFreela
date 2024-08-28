@@ -18,9 +18,15 @@ public class UsersControllers : ControllerBase
     }
     
     [HttpGet]
-    public IActionResult GetAllUsers()
+    public IActionResult GetAllUsers(string search = "")
     {
-        return Ok();
+        var user = _context.Users
+            .Where(u => !u.IsDeleted)
+            .ToList();
+
+        var model = user.Select(UsersViewmodel.FromEntity).ToList();
+        
+        return Ok(model);
     }
 
     [HttpGet("{id}")]

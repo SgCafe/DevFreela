@@ -23,5 +23,4 @@ public class UsersViewmodel
 
         return new UsersViewmodel(user.FullName, user.Email, user.BirthDate, skills);
     }
-                                    
 }
