@@ -1,6 +1,8 @@
-﻿using DevFreela.API.Models;
+﻿using DevFreela.API.Entities;
+using DevFreela.API.Models;
 using DevFreela.API.Persistence;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API.Controllers;
 
@@ -24,9 +26,19 @@ public class UsersControllers : ControllerBase
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
+        var user = _context.Users
+            .Include(u => u.Skills)
+                .ThenInclude(u => u.Skill)
+            .SingleOrDefault(u => u.Id == id);
+
+        if (user is null)
+        {
+            return NotFound();
+        }
+
+        var model = UsersViewmodel.FromEntity(user);
         
-        
-        return Ok();
+        return Ok(model);
     }
     
     [HttpPost]
@@ -41,8 +53,16 @@ public class UsersControllers : ControllerBase
     }
 
     [HttpPost("{id}/skills")]
-    public IActionResult PostSkills(UserSkillsInputModel model)
+    public IActionResult PostSkills(int id, UserSkillsInputModel model)
     {
+        //Vai criar um new UserSK
+        var userSkills = model.SkillsIds
+            .Select(s => new UserSkill(id, s))
+            .ToList();
+        
+        _context.UserSkills.AddRange(userSkills);
+        _context.SaveChanges();
+        
         return NoContent();
     }
 
