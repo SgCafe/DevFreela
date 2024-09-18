@@ -167,3 +167,9 @@ C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\runt
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb

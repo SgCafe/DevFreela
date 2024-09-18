@@ -1,13 +1,13 @@
-﻿using DevFreela.API.Entities;
-using DevFreela.API.Models;
-using DevFreela.API.Persistence;
+﻿using DevFreela.Application.Models;
+using DevFreela.Core.Entities;
+using DevFreela.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API.Controllers;
 
-    [ApiController]
-    [Route("api/users")]
+[ApiController]
+[Route("api/users")]
 public class UsersControllers : ControllerBase
 {
     private readonly DevFreelaDbContext _context;
@@ -16,7 +16,7 @@ public class UsersControllers : ControllerBase
     {
         _context = context;
     }
-    
+
     [HttpGet]
     public IActionResult GetAllUsers(string search = "")
     {
@@ -25,7 +25,7 @@ public class UsersControllers : ControllerBase
             .ToList();
 
         var model = user.Select(UsersViewmodel.FromEntity).ToList();
-        
+
         return Ok(model);
     }
 
@@ -43,10 +43,10 @@ public class UsersControllers : ControllerBase
         }
 
         var model = UsersViewmodel.FromEntity(user);
-        
+
         return Ok(model);
     }
-    
+
     [HttpPost]
     public IActionResult Post(CreateUserInputModel model)
     {
@@ -54,7 +54,7 @@ public class UsersControllers : ControllerBase
 
         _context.Users.Add(user);
         _context.SaveChanges();
-        
+
         return NoContent();
     }
 
@@ -65,10 +65,10 @@ public class UsersControllers : ControllerBase
         var userSkills = model.SkillsIds
             .Select(s => new UserSkill(id, s))
             .ToList();
-        
+
         _context.UserSkills.AddRange(userSkills);
         _context.SaveChanges();
-        
+
         return NoContent();
     }
 
@@ -76,9 +76,9 @@ public class UsersControllers : ControllerBase
     public IActionResult PostProfilePicture(IFormFile file)
     {
         var description = $"File: {file.FileName}, Size: {file.Length}";
-        
+
         //Processar Imagem
-        
+
         return Ok(description);
     }
 }

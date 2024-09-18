@@ -1,26 +1,26 @@
-﻿using DevFreela.API.Entities;
-using DevFreela.API.Models;
-using DevFreela.API.Persistence;
+﻿using DevFreela.Application.Models;
+using DevFreela.Core.Entities;
+using DevFreela.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers;
 
-    [ApiController]
-    [Route("api/skills")]
+[ApiController]
+[Route("api/skills")]
 public class SkillsControllers : ControllerBase
 {
     private readonly DevFreelaDbContext _context;
-    
+
     public SkillsControllers(DevFreelaDbContext context)
     {
         _context = context;
     }
-    
+
     [HttpGet]
     public IActionResult GetAll()
     {
         var skills = _context.Skills.ToList();
-        
+
         return Ok(skills);
     }
 
@@ -31,7 +31,7 @@ public class SkillsControllers : ControllerBase
 
         _context.Skills.Add(skill);
         _context.SaveChanges();
-        
+
         return NoContent();
     }
 }

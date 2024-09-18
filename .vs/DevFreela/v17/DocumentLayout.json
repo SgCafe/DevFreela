@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\controllers\\skillscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\skillscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DevFreela.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\appsettings.json",
+              "RelativeToolTip": "DevFreela.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T00:03:55.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Program.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Program.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Program.cs",
+              "RelativeToolTip": "DevFreela.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T00:03:25.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersControllers.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\UsersControllers.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\UsersControllers.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\UsersControllers.cs",
+              "RelativeToolTip": "DevFreela.API\\Controllers\\UsersControllers.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowEEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T00:02:40.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SkillsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\SkillsControllers.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\SkillsControllers.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\SkillsControllers.cs",
+              "RelativeToolTip": "DevFreela.API\\Controllers\\SkillsControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T00:01:55.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwJAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T00:01:25.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
