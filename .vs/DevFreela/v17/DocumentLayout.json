@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\models\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\models\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\utilmessage\\dialogmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\utilmessage\\dialogmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 129,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,52 +74,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DialogMessage.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\UtilMessage\\DialogMessage.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\UtilMessage\\DialogMessage.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\UtilMessage\\DialogMessage.cs",
+              "RelativeToolTip": "DevFreela.Application\\UtilMessage\\DialogMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:25:49.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "DevFreela.Application\\Services\\ProjectService.cs",
               "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Services\\ProjectService.cs",
               "RelativeToolTip": "DevFreela.Application\\Services\\ProjectService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T00:36:52.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IProjectService.cs",
               "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Services\\IProjectService.cs",
               "RelativeDocumentMoniker": "DevFreela.Application\\Services\\IProjectService.cs",
               "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Services\\IProjectService.cs",
               "RelativeToolTip": "DevFreela.Application\\Services\\IProjectService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T00:36:31.699Z"
+              "WhenOpened": "2024-09-19T00:36:31.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResultViewModel.cs",
               "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Models\\ResultViewModel.cs",
               "RelativeDocumentMoniker": "DevFreela.Application\\Models\\ResultViewModel.cs",
               "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Models\\ResultViewModel.cs",
               "RelativeToolTip": "DevFreela.Application\\Models\\ResultViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T00:29:47.067Z"
+              "WhenOpened": "2024-09-19T00:29:47.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProjectsControllers.cs",
               "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
               "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:01:25.812Z"
+              "WhenOpened": "2024-09-18T00:01:25.812Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -5,11 +5,17 @@
         public ResultViewModel(bool isSuccess = true, string error = "")
         {
             IsSuccess = isSuccess;
-            Error = error;
+            Message = error;
         }
 
         public bool IsSuccess { get; set; }
-        public string Error { get; set; }
+        public string Message { get; set; }
+
+        public static ResultViewModel Success()
+            => new ResultViewModel();
+
+        public static ResultViewModel Erro(string message)
+            => new ResultViewModel(false, message);
     }
 
     public class ResultViewModel<T> : ResultViewModel
@@ -21,5 +27,11 @@
         }
 
         public T? Data { get; set; }
+
+        public static ResultViewModel<T> Success(T data)
+            => new ResultViewModel<T>(data);
+
+        public static ResultViewModel<T> Erro(string message)
+            => new ResultViewModel<T>(default, false, message);
     }
 }
