@@ -1,8 +1,6 @@
 ﻿using DevFreela.Application.Models;
-using DevFreela.Core.Entities;
-using DevFreela.Infrastructure.Persistence;
+using DevFreela.Application.Services.User;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API.Controllers;
 
@@ -10,50 +8,44 @@ namespace DevFreela.API.Controllers;
 [Route("api/users")]
 public class UsersControllers : ControllerBase
 {
-    private readonly DevFreelaDbContext _context;
+    private readonly IUserService _service;
 
-    public UsersControllers(DevFreelaDbContext context)
+    public UsersControllers(IUserService service)
     {
-        _context = context;
+        _service = service;
     }
 
     [HttpGet]
     public IActionResult GetAllUsers(string search = "")
     {
-        var user = _context.Users
-            .Where(u => !u.IsDeleted)
-            .ToList();
+        var result = _service.GetAllUsers(search);
 
-        var model = user.Select(UsersViewmodel.FromEntity).ToList();
+        if (result is null)
+        {
+            return BadRequest(result.Data);
+        }
 
-        return Ok(model);
+        return Ok(result);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        var user = _context.Users
-            .Include(u => u.Skills)
-                .ThenInclude(u => u.Skill)
-            .SingleOrDefault(u => u.Id == id);
+        var result = _service.GetById(id);
 
-        if (user is null)
+        if (result is null)
         {
-            return NotFound();
+            return BadRequest(result.Data);
         }
 
-        var model = UsersViewmodel.FromEntity(user);
-
-        return Ok(model);
+        return Ok(result);
     }
 
+    // POST api/users
     [HttpPost]
     public IActionResult Post(CreateUserInputModel model)
     {
-        var user = model.ToEntity();
-
-        _context.Users.Add(user);
-        _context.SaveChanges();
+        var result = _service.Post(model);
 
         return NoContent();
     }
@@ -61,13 +53,7 @@ public class UsersControllers : ControllerBase
     [HttpPost("{id}/skills")]
     public IActionResult PostSkills(int id, UserSkillsInputModel model)
     {
-        //Vai criar um new UserSK
-        var userSkills = model.SkillsIds
-            .Select(s => new UserSkill(id, s))
-            .ToList();
-
-        _context.UserSkills.AddRange(userSkills);
-        _context.SaveChanges();
+        var result = _service.PostSkills(id, model);
 
         return NoContent();
     }

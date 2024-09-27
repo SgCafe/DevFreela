@@ -1,6 +1,6 @@
 ﻿using DevFreela.Application.Models;
 
-namespace DevFreela.Application.Services
+namespace DevFreela.Application.Services.Project
 {
     public interface IProjectService
     {

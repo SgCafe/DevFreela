@@ -173,3 +173,4 @@ C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevF
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
 C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\DevFreela.API.staticwebassets.runtime.json
