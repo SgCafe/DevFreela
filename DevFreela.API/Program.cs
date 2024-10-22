@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Services.AddDbContext<DevFreelaDbContext>(o =>
 //     o.UseInMemoryDatabase("DevFreelaDb"));
 
-var connectionString = builder.Configuration.GetConnectionString("DevFreelaCs");
+var connectionString = builder.Configuration.GetConnectionString("DevFreelaNote");
 builder.Services.AddDbContext<DevFreelaDbContext>(o => o.UseSqlServer(connectionString));
 
 builder.Services.AddApplication();

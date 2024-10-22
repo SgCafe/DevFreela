@@ -29,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D5F0F7-098E-4A16-8D5C-035819106A1C}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.infrastructure\\persistence\\devfreeladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D5F0F7-098E-4A16-8D5C-035819106A1C}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\devfreeladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D5F0F7-098E-4A16-8D5C-035819106A1C}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.infrastructure\\persistence\\migrations\\20240918003650_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D5F0F7-098E-4A16-8D5C-035819106A1C}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\migrations\\20240918003650_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,9 +96,9 @@
               "RelativeDocumentMoniker": "DevFreela.API\\appsettings.json",
               "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.API\\appsettings.json",
               "RelativeToolTip": "DevFreela.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-22T01:12:48.62Z",
+              "WhenOpened": "2024-10-22T01:04:03.172Z",
               "EditorCaption": ""
             },
             {
@@ -101,7 +109,7 @@
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\UsersControllers.cs",
               "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.API\\Controllers\\UsersControllers.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\UsersControllers.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAmwEQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T02:51:15.709Z",
               "EditorCaption": ""
@@ -117,6 +125,30 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T02:46:49.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DevFreelaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T02:45:26.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240918003650_PrimeiraMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Migrations\\20240918003650_PrimeiraMigration.cs",
+              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\Migrations\\20240918003650_PrimeiraMigration.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Migrations\\20240918003650_PrimeiraMigration.cs",
+              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\Migrations\\20240918003650_PrimeiraMigration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T02:45:23.316Z"
             },
             {
               "$type": "Document",
