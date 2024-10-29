@@ -1046,12 +1046,18 @@
           "DevFreela.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "DevFreela.Application.dll": {}
+          "DevFreela.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DevFreela.Core/1.0.0": {
         "runtime": {
-          "DevFreela.Core.dll": {}
+          "DevFreela.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DevFreela.Infrastructure/1.0.0": {
@@ -1060,7 +1066,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
         },
         "runtime": {
-          "DevFreela.Infrastructure.dll": {}
+          "DevFreela.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
