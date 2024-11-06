@@ -1,28 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\",
+  "WorkspaceRootPath": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.application\\commands\\usercommands\\insertuser\\insertuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\usercommands\\insertuser\\insertuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\commands\\projectcommands\\insertcomment\\validateinsertprojectcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\projectcommands\\insertcomment\\validateinsertprojectcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.application\\commands\\usercommands\\insertuser\\insertusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\usercommands\\insertuser\\insertusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8611DDC2-802A-4479-A960-B34BDED1FB12}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.application\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\sergio\\documents\\github\\devfreela\\devfreela.application\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\devfreela\\devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEBD06FD-8205-480D-B308-239410F88959}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 254,
       "DocumentGroups": [
         {
           "DockedWidth": 129,
@@ -31,10 +27,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
@@ -78,10 +70,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
@@ -90,54 +78,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InsertUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserHandler.cs",
-              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserHandler.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserHandler.cs",
-              "RelativeToolTip": "DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:44:23.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InsertUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserCommand.cs",
-              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserCommand.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserCommand.cs",
-              "RelativeToolTip": "DevFreela.Application\\Commands\\UserCommands\\InsertUser\\InsertUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Title": "ProjectsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsControllers.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:42:35.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Services\\User\\IUserService.cs",
-              "RelativeDocumentMoniker": "DevFreela.Application\\Services\\User\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Services\\User\\IUserService.cs",
-              "RelativeToolTip": "DevFreela.Application\\Services\\User\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:27:04.167Z",
+              "WhenOpened": "2024-11-06T02:29:35.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Services\\User\\UserService.cs",
-              "RelativeDocumentMoniker": "DevFreela.Application\\Services\\User\\UserService.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.Application\\Services\\User\\UserService.cs",
-              "RelativeToolTip": "DevFreela.Application\\Services\\User\\UserService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwC4AAAAMAAAAAAAAAA==",
+              "Title": "ApplicationModule.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\ApplicationModule.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\ApplicationModule.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\ApplicationModule.cs",
+              "RelativeToolTip": "DevFreela.Application\\ApplicationModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:26:40.045Z",
+              "WhenOpened": "2024-11-06T01:54:12.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidateInsertProjectCommandBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Commands\\ProjectCommands\\InsertComment\\ValidateInsertProjectCommandBehavior.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\ProjectCommands\\InsertComment\\ValidateInsertProjectCommandBehavior.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\DevFreela\\DevFreela.Application\\Commands\\ProjectCommands\\InsertComment\\ValidateInsertProjectCommandBehavior.cs",
+              "RelativeToolTip": "DevFreela.Application\\Commands\\ProjectCommands\\InsertComment\\ValidateInsertProjectCommandBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:37:15.895Z",
               "EditorCaption": ""
             }
           ]

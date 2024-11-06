@@ -4,7 +4,6 @@ using DevFreela.Application.Commands.ProjectCommands.InsertComment;
 using DevFreela.Application.Commands.ProjectCommands.InsertProject;
 using DevFreela.Application.Commands.ProjectCommands.StartProject;
 using DevFreela.Application.Commands.ProjectCommands.UpdateProject;
-using DevFreela.Application.Models;
 using DevFreela.Application.Querys.ProjectQuerys.GetAllProjects;
 using DevFreela.Application.Querys.ProjectQuerys.GetProjectById;
 using DevFreela.Application.Services.Project;
@@ -27,7 +26,7 @@ public class ProjectsControllers : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Get(string search = "", int page = 0, int size = 3)
+    public async Task<IActionResult> GetAllUsers(string search = "", int page = 0, int size = 3)
     {
         var query = new GetAllProjectsQuery();
         var result = await _mediatoR.Send(query);
@@ -51,6 +50,11 @@ public class ProjectsControllers : ControllerBase
     public async Task<IActionResult> Post(InsertProjectCommand command)
     {
         var result = await _mediatoR.Send(command);
+
+        if (!result.IsSuccess)
+        {
+            return BadRequest(result.Message);
+        }
 
         return CreatedAtAction(nameof(GetById), new { id = result.Data }, command);
     }

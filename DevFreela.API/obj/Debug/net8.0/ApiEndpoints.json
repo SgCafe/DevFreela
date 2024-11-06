@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "DevFreela.API.Controllers.ProjectsControllers",
-    "Method": "Get",
+    "Method": "GetAllUsers",
     "RelativePath": "api/projects",
     "HttpMethod": "GET",
     "IsController": true,
@@ -180,13 +180,7 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "search",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -198,8 +192,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "DevFreela.Application.Models.CreateUserInputModel",
+        "Name": "command",
+        "Type": "DevFreela.Application.Commands.UserCommands.InsertUser.InsertUserCommand",
         "IsRequired": true
       }
     ],
@@ -223,27 +217,6 @@
   },
   {
     "ContainingType": "DevFreela.API.Controllers.UsersControllers",
-    "Method": "PostProfilePicture",
-    "RelativePath": "api/users/{id}/profile-picture",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DevFreela.API.Controllers.UsersControllers",
     "Method": "PostSkills",
     "RelativePath": "api/users/{id}/skills",
     "HttpMethod": "POST",
@@ -251,13 +224,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "command",
+        "Type": "DevFreela.Application.Commands.UserCommands.InsertSkills.InsertSkillsCommand",
         "IsRequired": true
       },
       {
-        "Name": "model",
-        "Type": "DevFreela.Application.Models.UserSkillsInputModel",
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
