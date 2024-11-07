@@ -1,9 +1,7 @@
 ﻿using DevFreela.Application.Commands.UserCommands.InsertSkills;
 using DevFreela.Application.Commands.UserCommands.InsertUser;
-using DevFreela.Application.Models;
 using DevFreela.Application.Querys.UserQuerys.GetAllUsers;
 using DevFreela.Application.Querys.UserQuerys.GetUserById;
-using DevFreela.Application.Services.User;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,12 +11,10 @@ namespace DevFreela.API.Controllers;
 [Route("api/users")]
 public class UsersControllers : ControllerBase
 {
-    private readonly IUserService _service;
     private readonly IMediator _mediatoR;
 
-    public UsersControllers(IUserService service, IMediator mediator)
+    public UsersControllers(IMediator mediator)
     {
-        _service = service;
         _mediatoR = mediator;
     }
 
@@ -44,7 +40,6 @@ public class UsersControllers : ControllerBase
         return Ok(result);
     }
 
-    // POST api/users
     [HttpPost]
     public async Task<IActionResult> Post(InsertUserCommand command)
     {

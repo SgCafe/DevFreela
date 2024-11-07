@@ -1,33 +1,31 @@
 ﻿using DevFreela.Application.Models;
 using DevFreela.Application.UtilMessage;
 using DevFreela.Core.Entities;
-using DevFreela.Infrastructure.Persistence;
+using DevFreela.Core.Repositories;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.Application.Commands.ProjectCommands.InsertComment
 {
     public class InsertCommentHandler : IRequestHandler<InsertCommentCommand, ResultViewModel>
     {
-        private readonly DevFreelaDbContext _context;
+        private readonly IProjectRepository _repository;
 
-        public InsertCommentHandler(DevFreelaDbContext context)
+        public InsertCommentHandler(IProjectRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         public async Task<ResultViewModel> Handle(InsertCommentCommand request, CancellationToken cancellationToken)
         {
-            var project = await _context.Projects.SingleOrDefaultAsync(p => p.Id == request.IdProject);
+            var exists = await _repository.Exists(request.IdProject);
 
-            if (project is null)
+            if (!exists)
             {
                 return ResultViewModel.Erro(DialogMessage.ProjectNotFound);
             }
 
             var comment = new ProjectComment(request.Content, request.IdProject, request.IdUser);
-            await _context.ProjectComments.AddAsync(comment);
-            await _context.SaveChangesAsync();
+            await _repository.AddComment(comment);
 
             return ResultViewModel.Success();
         }
