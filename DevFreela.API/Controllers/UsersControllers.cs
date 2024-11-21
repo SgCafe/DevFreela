@@ -1,5 +1,6 @@
 ﻿using DevFreela.Application.Commands.UserCommands.InsertSkills;
 using DevFreela.Application.Commands.UserCommands.InsertUser;
+using DevFreela.Application.Commands.UserCommands.LoginUser;
 using DevFreela.Application.Querys.UserQuerys.GetAllUsers;
 using DevFreela.Application.Querys.UserQuerys.GetUserById;
 using MediatR;
@@ -52,6 +53,13 @@ public class UsersControllers : ControllerBase
     public async Task<IActionResult> PostSkills(InsertSkillsCommand command)
     {
         var result = await _mediatoR.Send(command);
+
+        return NoContent();
+    }
+
+    [HttpPut("login")]
+    public async Task<IActionResult> Login(LoginUserCommand command)
+    {
 
         return NoContent();
     }

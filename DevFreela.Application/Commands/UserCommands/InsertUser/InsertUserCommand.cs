@@ -12,7 +12,7 @@ namespace DevFreela.Application.Commands.UserCommands.InsertUser
         public string Password { get; set; }
         public string Role { get; set; }
 
-        public User ToEntity()
-            => new(FullName, Email, BirthDate, true, Password, Role);
+        public User ToEntity(string passwordHash)
+            => new(FullName, Email, BirthDate, true, passwordHash, Role);
     }
 }
