@@ -24,6 +24,7 @@ namespace DevFreela.Infrastructure
         {
             services
                 .AddScoped<IAuthService, AuthService>()
+                .AddScoped<IUserRepository, UserRepository>()
                 .AddScoped<IProjectRepository, ProjectRepository>();
 
             return services;

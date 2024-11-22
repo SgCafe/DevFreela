@@ -60,7 +60,13 @@ public class UsersControllers : ControllerBase
     [HttpPut("login")]
     public async Task<IActionResult> Login(LoginUserCommand command)
     {
+        var result = await _mediatoR.Send(command);
 
-        return NoContent();
+        if (result is null)
+        {
+            return BadRequest(result?.Message);
+        }
+
+        return Ok(result.Data);
     }
 }
