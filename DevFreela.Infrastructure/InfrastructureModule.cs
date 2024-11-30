@@ -32,7 +32,7 @@ namespace DevFreela.Infrastructure
 
         public static IServiceCollection AddData(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("DevFreelaCs");
+            var connectionString = configuration.GetConnectionString("DevFreelaNote");
             services.AddDbContext<DevFreelaDbContext>(o => o.UseSqlServer(connectionString));
 
             return services;

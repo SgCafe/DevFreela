@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x78ic05ENG4auqiBoWx7IKr7M/FBspmsjcV6a6lV99s=",
+  "Hash": "6jve92yy2JmaH5pwc3RbKz6czaWEVcYKTjLtkv8VYmY=",
   "Source": "DevFreela.API",
   "BasePath": "_content/DevFreela.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DevFreela.API\\wwwroot",
       "Source": "DevFreela.API",
-      "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.API\\wwwroot\\",
       "BasePath": "_content/DevFreela.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Sérgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "Identity": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.API\\wwwroot\\swagger-ui\\SwaggerDark.css",
       "SourceId": "DevFreela.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\DevFreela\\DevFreela.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sergio\\Documents\\GitHub\\DevFreela\\DevFreela.API\\wwwroot\\",
       "BasePath": "_content/DevFreela.API",
       "RelativePath": "swagger-ui/SwaggerDark.css",
       "AssetKind": "All",
