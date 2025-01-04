@@ -356,3 +356,6 @@ C:\Users\Sergio\Documents\GitHub\DevFreela\DevFreela.API\obj\Debug\net8.0\refint
 C:\Users\Sergio\Documents\GitHub\DevFreela\DevFreela.API\obj\Debug\net8.0\DevFreela.API.pdb
 C:\Users\Sergio\Documents\GitHub\DevFreela\DevFreela.API\obj\Debug\net8.0\DevFreela.API.genruntimeconfig.cache
 C:\Users\Sergio\Documents\GitHub\DevFreela\DevFreela.API\obj\Debug\net8.0\ref\DevFreela.API.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Sérgio\workspace\pessoal\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
